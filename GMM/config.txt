@@ -1,0 +1,1 @@
+{"training_bearings": [{"1st_test": [7, 2], "2nd_test": [0, 1]}]}
