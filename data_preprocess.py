@@ -55,7 +55,7 @@ def cal_max_freq(files, path, no_of_bearings):
     freq_comp1, freq_comp2, freq_comp3, freq_comp4, freq_comp5 = ([] for _ in range(5))
     print("\nProcessing... Please wait...\n")
     for f in files:
-        temp = pd.read_csv(path+f,  sep = "\t",header = None)
+        temp = pd.read_csv(path+f,  sep = "\t",header = None, engine='python')
         temp_freq_comp1,temp_freq_comp2,temp_freq_comp3,temp_freq_comp4,temp_freq_comp5 = ([] for _ in range(5))
 
         for i in range(0,no_of_bearings):

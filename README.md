@@ -46,7 +46,7 @@ There are several machine learning models which don&#39;t require neural network
    ```
    sudo apt install python-setuptools
    sudo apt install git
-   sudo easy_install six
+   sudo apt-get install -y python-six 
    sudo apt-get install python3-pip
    sudo python3 -m pip install matplotlib==2.1.2 scikit-learn==0.19.1 numpy==1.14 pandas==0.22.0 scipy==1.1.0
    sudo apt-get install python3-tk
